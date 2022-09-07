@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+      * {
+        padding: 0;
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+      }
+
+      .main {
+        padding: 50px;
+        font-size: 18px;
+      }
+
+      .main input {
+        height: 10px;
+        width: 250px;
+        padding: 15px;
+        border-radius: 5px;
+      }
+
+      #btn {
+        width: 100px;
+        color: whitesmoke;
+        background: red;
+        border: 0ch;
+        padding: 5px;
+        border-radius: 5px;
+      }
+
+      p {
+        background: rgb(90, 90, 219);
+        color: aliceblue;
+        padding: 5px;
+        padding-left: 15px;
+        width: 350px;
+      }
+    </style>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main">
+      <label for="username">Please Enter Name Here:</label><br />
+      <input type="text" id="username" />
+
+      <button id="btn">Click</button><br /><br /><br />
+
+      <label for="adharNo">Aadhar Card No:</label>
+      <p id="adharNo">Nothing to Show</p>
+      <br /><br />
+
+      <label for="status">Vaccination Status:</label>
+      <p id="status">Nothing to Show</p>
+      <br /><br />
+
+      <label for="certificate">Certificate:</label>
+      <p id="certificate">Nothing to Show</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
